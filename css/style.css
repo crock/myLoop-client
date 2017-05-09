@@ -42,6 +42,9 @@ html, body {
   font-family: 'Gotham', sans-serif;
   font-size: 16px; }
 
+#welcome {
+  background: #C71F2D; }
+
 .active {
   color: #fff !important; }
 
@@ -390,7 +393,7 @@ header {
         justify-content: center;
         align-content: center; }
         #loopParent .loops .loop .create-subloop-btn:after, #subloops .loops .loop .create-subloop-btn:after {
-          content: 'Create<br>Subloop</div>';
+          content: 'Create<br>Subloop';
           text-align: center;
           font-weight: 700;
           font-size: 1.5rem;
@@ -465,7 +468,7 @@ footer {
   #ourStory ul {
     list-style-image: url("../img/small-myLoop-icon.png"); }
   #ourStory button {
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham';
     background: #C71F2D;
     font-size: 20px;
     color: white;
