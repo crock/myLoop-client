@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>MyLoop Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile-My-Story" transform="translate(-361.000000, -137.000000)" stroke-width="7">
+            <g id="Header-Nav" transform="translate(0.000000, 115.000000)">
+                <g id="MyLoop-Icon" transform="translate(359.000000, 20.000000)">
+                    <g id="myLoop-icon">
+                        <path d="M28.3340081,43.6413249 C37.1670665,41.9026293 43.8295581,34.1159006 43.8295581,24.7730635 C43.8295581,14.152203 35.2196494,5.54229431 24.5987889,5.54229431 C15.8081749,5.54229431 8.39515325,11.4404678 6.10129296,19.4952456" id="Oval-5" stroke="#FFFFFF" transform="translate(24.965426, 24.591810) rotate(-69.000000) translate(-24.965426, -24.591810) "></path>
+                        <path d="M42.8745163,40.9317697 C39.9073857,39.0590578 36.3924758,37.9753669 32.6244563,37.9753669 C27.5820295,37.9753669 22.9928775,39.9160666 19.5631793,43.0912866" id="Oval-5" stroke="#4A4A4A" transform="translate(31.218848, 40.533327) rotate(163.000000) translate(-31.218848, -40.533327) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

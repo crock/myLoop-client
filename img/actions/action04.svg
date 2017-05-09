@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>actionIcon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile-My-Actions" transform="translate(-233.000000, -1348.000000)">
+            <g id="Achievements" transform="translate(151.000000, 1074.000000)">
+                <g id="Subloop-Tasks-Created" transform="translate(0.000000, 274.000000)">
+                    <g id="Icon" transform="translate(82.000000, 0.000000)">
+                        <circle id="Oval-3" fill="#81B6EB" cx="30" cy="30" r="30"></circle>
+                        <text id="ion-plus-round---Ionicons" font-family="Ionicons" font-size="20" font-weight="400" fill="#FFFFFF">
+                            <tspan x="23" y="38"></tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
