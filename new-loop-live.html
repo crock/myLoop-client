@@ -14,11 +14,11 @@
     <!-- NAVIGATION -->
     <nav>
         <ul>
-            <li><a href=""><img src="img/users.svg" alt="users"></a></li>
-            <li><a href="#"><img src="img/events.svg" alt="events"></a></li>
-            <li><a href="loop-homepage.html"><img src="img/myloop.svg" alt="myLoop"></a></li>
-            <li><a href="loop-live-landing.html"><i class="fa fa-video-camera fa-3x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><img src="img/alerts.svg" alt="alerts"></a></li>
+            <li><a href=""><img src="img/nav-icons/users.svg" /></a></li>
+            <li><a href=""><img src="img/nav-icons/events.svg" /></a></li>
+            <li><a href=""><img src="img/nav-icons/myloop.svg" /></a></li>
+            <li><a href=""><img src="img/nav-icons/video.svg" /></a></li>
+            <li><a href=""><img src="img/nav-icons/alerts.svg" /></a></li>
         </ul>
     </nav>
     <!-- END NAVIGATION -->
@@ -26,32 +26,31 @@
     <!-- CONTENT -->
     <div class="header">
         <h1 style="color: #000000;">New Loop Live</h1>
-        <p style="font-weight: 300;">
+        <p style="font-weight: 300; color: #767676">
             We’re taking live streaming to a deeper level with Loop Live.
             Target your viewers by defining your stream’s purpose and customizing your call to action button.
         </p>
     </div>
 
     <form>
-
-        <div class="form-group" id="fancyToggle">
-            <h3 class="form-label">Open Loop Live <i class="fa fa-info-circle fa-1x" style="display: inline;"></i></h3>
-
-             <div class="switch">
-                 <input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
-                 <label for="cmn-toggle-4"></label>
-             </div>
-
+<div class="stay-in-the-box">
+        <div class="form-group" id="fancyToggle" style="display: flex; flex-direction: row; justify-content: space-between;">
+            <h3 class="form-label" style="font-size: 28px;">Open Loop Live<sup><small>&#128712;</small></sup></h3>
+            <div class="switch">
+                <input id="cmn-toggle-4" class="cmn-toggle cmn-toggle-round-flat" type="checkbox">
+                <label for="cmn-toggle-4"></label>
+            </div>
         </div>
         <div class="form-group">
-            <h3 class="form-label">Name</h3>
-            <input class="form-input" type="text" placeholder="Choose an easy to remember name.">
+            <h3 class="form-label" style="font-size: 28px">Name</h3>
+            <input class="form-input" type="text" placeholder="Choose an easy to remember name." style="font-family: 'Gotham', sans-serif; font-weight: 300; font-size: 18px">
         </div>
         <div class="form-group">
-            <h3 class="form-label">Purpose</h3>
-            <textarea class="form-input" placeholder='What&apos;s the purpose? What are you trying to achieve? What&apos;s the “why”?'></textarea>
+            <h3 class="form-label" style="font-size: 28px">Purpose</h3>
+            <textarea class="form-input" style="font-family: 'Gotham', sans-serif; font-weight: 300; height: 100px; font-size: 18px;" placeholder='What&apos;s the purpose? What are you trying to achieve? What&apos;s the “why”?'></textarea>
         </div>
-        <input type="submit" class="btn-danger" value="Create New Loop Live">
+</div>
+        <input type="submit" style="font-family: 'Gotham', sans-serif; font-weight: 700; font-size: 20px;" class="btn-danger" value="Create New Loop Live">
         <br>
 
     </form>
