@@ -107,6 +107,28 @@ input.cmn-toggle-round-flat:checked + label:after {
 
 // end fancy toggle switches
 
+ul.subnav {
+    width: 255px;
+    height: 118px;
+    background: #fff;
+    list-style: none;
+    display: none;
+    border: 1px solid red;
+    position: relative;
+    top: 25px;
+
+    li {
+        height: calc(118/3)px;
+        line-height: auto;
+        border: 1px solid #000;
+
+        a {
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+}
+
 .active {
     color: #fff !important;
 }
@@ -628,26 +650,26 @@ header {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        align-content: center;
 
         .column {
             width: 222px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-content: space-around;
+            align-items: space-between;
 
             h2 {
                 font-weight: 400;
                 font-size: 24px;
+                align-self: flex-start;
             }
 
             .add-new-task {
                 width: 100%;
                 height: 44px;
-                padding: 10px;
+                text-indent: 10px;
                 border: none;
                 border-radius: 7px;
+                align-self: flex-start;
 
                 ::-webkit-input-placeholder {
                     font-size: 20px;
