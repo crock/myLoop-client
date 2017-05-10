@@ -226,7 +226,7 @@ nav {
         background: #2383D7; }
 
 header {
-  background: url(https://placekitten.com/1440/600) no-repeat center center;
+  background: url(../img/ferdinand-stohr-149422.jpg) no-repeat center center;
   width: 100%;
   height: 408px;
   display: flex;
@@ -646,6 +646,7 @@ footer {
   width: 100%;
   height: 400px;
   background-color: #000000;
+  background: url(../img/stefan-kunze-18046.jpg) no-repeat center center;
   position: relative;
   font-weight: bold;
   display: flex;
