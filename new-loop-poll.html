@@ -28,7 +28,7 @@
 
     <div class="header">
         <h1 style="color: #000000;">New Loop Poll</h1>
-        <p style="font-weight: 300;">
+        <p style="font-weight: 300; line-height: 20px;">
             We're adding depth to the group polling system. <br>Make joint decisions to continue achieving community goals.
         </p>
     </div>
@@ -36,18 +36,19 @@
     <form style="width: 500px; height: auto;">
 
         <div class="form-group">
-            <h3 class="form-label">Decision</h3>
-            <input class="form-input" type="text" placeholder="Choose an easy to remember name.">
+            <h3 class="form-label" style="font-size: 24px;">Decision</h3>
+            <input class="form-input" type="text" placeholder="Choose an easy to remember name." style="font-family: 'Gotham', sans-serif; height: 20px;">
         </div>
         <div class="form-group">
-            <h3 class="form-label">Choices</h3>
-            <input class="form-input" type="text" placeholder="Option">
+            <h3 class="form-label" style="font-size: 24px">Choices</h3>
+            <input class="form-input" type="text" placeholder="Option 1" style="font-family: 'Gotham', sans-serif; height: 20px;">
             <br>
-            <input class="form-input" type="text" placeholder="Option">
-            <br>
-            <span id="add"></span>
+            <input class="form-input" type="text" placeholder="Option 2" style="font-family: 'Gotham', sans-serif; height: 20px">
+            <div class="append-here"></div>
 
-            <input type="submit" class="btn-info" value="+ Add An Option" id="add-option" style="font-family: 'Gotham', sans-serif; font-weight: 700; font-size: 20px;">
+
+            <br>
+            <input type="submit" class="btn-info add-option" value="+ Add An Option" style="font-family: 'Gotham', sans-serif; font-weight: 700; font-size: 20px;">
             <input type="submit" class="btn-danger" id="pollish" value="Create New Poll" style="font-family: 'Gotham', sans-serif; font-weight: 700; font-size: 20px; ">
         </div>
     </form>
