@@ -123,6 +123,23 @@ input.cmn-toggle-round-flat:checked + label:after {
   margin-left: 75px;
   background-color: #4183D7; }
 
+ul.subnav {
+  width: 255px;
+  height: 118px;
+  background: #fff;
+  list-style: none;
+  display: none;
+  border: 1px solid red;
+  position: relative;
+  top: 25px; }
+  ul.subnav li {
+    height: calc(118/3) px;
+    line-height: auto;
+    border: 1px solid #000; }
+    ul.subnav li a {
+      text-decoration: none;
+      text-align: center; }
+
 .active {
   color: #fff !important; }
 
@@ -517,23 +534,23 @@ header {
   #subloop .task-grid {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center; }
+    justify-content: space-around; }
     #subloop .task-grid .column {
       width: 222px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-content: space-around; }
+      align-items: space-between; }
       #subloop .task-grid .column h2 {
         font-weight: 400;
-        font-size: 24px; }
+        font-size: 24px;
+        align-self: flex-start; }
       #subloop .task-grid .column .add-new-task {
         width: 100%;
         height: 44px;
-        padding: 10px;
+        text-indent: 10px;
         border: none;
-        border-radius: 7px; }
+        border-radius: 7px;
+        align-self: flex-start; }
         #subloop .task-grid .column .add-new-task ::-webkit-input-placeholder {
           font-size: 20px;
           font-weight: 400;
