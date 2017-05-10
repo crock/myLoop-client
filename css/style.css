@@ -484,13 +484,103 @@ header {
       justify-content: center;
       align-content: center;
       margin: 25px 0; }
-      #create-subloop form .form-group:first-of-type {
-        flex-flow: row nowrap;
-        align-content: center;
-        justify-content: space-between; }
+    #create-subloop form #fancyToggle {
+      flex-flow: row nowrap;
+      align-content: center;
+      justify-content: space-between; }
     #create-subloop form .btn-danger {
       display: block;
       margin: 25px auto; }
+
+#subloop {
+  background: #EAEAEA;
+  width: 100%;
+  height: 100%; }
+  #subloop .subloop-header {
+    width: 100%;
+    height: 108px;
+    background: #fff; }
+    #subloop .subloop-header h1 {
+      font-weight: 700;
+      font-size: 30px; }
+    #subloop .subloop-header .subloop-nav {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-content: center; }
+      #subloop .subloop-header .subloop-nav .nav-item a {
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center; }
+      #subloop .subloop-header .subloop-nav .nav-item:first-of-type a {
+        font-weight: 700; }
+  #subloop .task-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center; }
+    #subloop .task-grid .column {
+      width: 222px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: space-around; }
+      #subloop .task-grid .column h2 {
+        font-weight: 400;
+        font-size: 24px; }
+      #subloop .task-grid .column .add-new-task {
+        width: 100%;
+        height: 44px;
+        padding: 10px;
+        border: none;
+        border-radius: 7px; }
+        #subloop .task-grid .column .add-new-task ::-webkit-input-placeholder {
+          font-size: 20px;
+          font-weight: 400;
+          color: #8d8d8d; }
+        #subloop .task-grid .column .add-new-task ::-moz-placeholder {
+          font-size: 20px;
+          font-weight: 400;
+          color: #8d8d8d; }
+        #subloop .task-grid .column .add-new-task :-ms-input-placeholder {
+          font-size: 20px;
+          font-weight: 400;
+          color: #8d8d8d; }
+        #subloop .task-grid .column .add-new-task :-moz-placeholder {
+          font-size: 20px;
+          font-weight: 400;
+          color: #8d8d8d; }
+      #subloop .task-grid .column .task {
+        width: 100%;
+        min-height: 80px;
+        height: auto;
+        background: #fff;
+        border-radius: 7px;
+        margin-top: 15px; }
+        #subloop .task-grid .column .task:first-of-type {
+          margin-top: 50px; }
+        #subloop .task-grid .column .task .task-title {
+          display: block;
+          padding: 10px; }
+        #subloop .task-grid .column .task .task-info {
+          padding: 10px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          align-content: center; }
+          #subloop .task-grid .column .task .task-info .group {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: space-between; }
+            #subloop .task-grid .column .task .task-info .group .task-assignee {
+              display: inline; }
+              #subloop .task-grid .column .task .task-info .group .task-assignee img {
+                border-radius: 50%; }
+            #subloop .task-grid .column .task .task-info .group .task-due {
+              padding: 10px; }
+            #subloop .task-grid .column .task .task-info .group .task-action {
+              padding: 15px; }
 
 footer {
   background: #4183D7;
