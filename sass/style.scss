@@ -573,17 +573,155 @@ header {
             justify-content: center;
             align-content: center;
             margin: 25px 0;
+        }
 
-            &:first-of-type {
-                flex-flow: row nowrap;
-                align-content: center;
-                justify-content: space-between;
-            }
+        #fancyToggle {
+            flex-flow: row nowrap;
+            align-content: center;
+            justify-content: space-between;
         }
 
         .btn-danger {
             display: block;
             margin: 25px auto;
+        }
+    }
+}
+
+#subloop {
+    background: #EAEAEA;
+    width: 100%;
+    height: 100%;
+
+    .subloop-header {
+        width: 100%;
+        height: 108px;
+        background: #fff;
+
+        h1 {
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        .subloop-nav {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-content: center;
+
+            .nav-item {
+
+                a {
+                    text-decoration: none;
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                &:first-of-type a {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .task-grid {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: center;
+
+        .column {
+            width: 222px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-around;
+
+            h2 {
+                font-weight: 400;
+                font-size: 24px;
+            }
+
+            .add-new-task {
+                width: 100%;
+                height: 44px;
+                padding: 10px;
+                border: none;
+                border-radius: 7px;
+
+                ::-webkit-input-placeholder {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: #8d8d8d;
+                }
+
+                ::-moz-placeholder {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: #8d8d8d;
+                }
+
+                :-ms-input-placeholder {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: #8d8d8d;
+                }
+
+                :-moz-placeholder {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: #8d8d8d;
+                }
+            }
+
+            .task {
+                width: 100%;
+                min-height: 80px;
+                height: auto;
+                background: #fff;
+                border-radius: 7px;
+                margin-top: 15px;
+
+                &:first-of-type {
+                    margin-top: 50px;
+                }
+
+                .task-title {
+                    display: block;
+                    padding: 10px;
+                }
+
+                .task-info {
+                    padding: 10px;
+                    display: flex;
+                    flex-flow: row nowrap;
+                    justify-content: space-between;
+                    align-content: center;
+
+                    .group {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .task-assignee {
+                            display: inline;
+
+                            img {
+                                border-radius: 50%;
+                            }
+                        }
+
+                        .task-due {
+                            padding: 10px;
+                        }
+
+                        .task-action {
+                            padding: 15px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
